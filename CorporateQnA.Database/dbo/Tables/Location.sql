@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Location] (
+    [Id]  UNIQUEIDENTIFIER  DEFAULT NEWID(),
+    [Name] NVARCHAR (100) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    UNIQUE NONCLUSTERED ([Name] ASC)
+);
+
